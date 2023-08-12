@@ -18,8 +18,8 @@ const LoginForm = () => {
     const navigate = useNavigate();
 
     const initialValues: LoginBody = {
-        email: "",
-        password: "",
+        email: "demo@gmail.com",
+        password: "demo",
     };
 
     const validationSchema = Yup.object().shape({
