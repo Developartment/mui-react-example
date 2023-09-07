@@ -22,7 +22,7 @@ dependencies:
     version: 5.14.5(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@mui/x-data-grid':
     specifier: ^6.11.1
-    version: 6.11.1(@mui/material@5.14.5)(@mui/system@5.14.4)(react-dom@18.2.0)(react@18.2.0)
+    version: 6.11.1(@mui/material@5.14.5)(@mui/system@5.14.5)(react-dom@18.2.0)(react@18.2.0)
   '@reduxjs/toolkit':
     specifier: ^1.9.5
     version: 1.9.5(react-redux@8.1.2)(react@18.2.0)
@@ -33,8 +33,8 @@ dependencies:
     specifier: ^4.32.6
     version: 4.32.6(@tanstack/react-query@4.32.6)(react-dom@18.2.0)(react@18.2.0)
   axios:
-    specifier: ^1.4.0
-    version: 1.4.0
+    specifier: ^1.5.0
+    version: 1.5.0
   formik:
     specifier: ^2.4.3
     version: 2.4.3(react@18.2.0)
@@ -1066,7 +1066,7 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /@mui/x-data-grid@6.11.1(@mui/material@5.14.5)(@mui/system@5.14.4)(react-dom@18.2.0)(react@18.2.0):
+  /@mui/x-data-grid@6.11.1(@mui/material@5.14.5)(@mui/system@5.14.5)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-qFyuf6R/JOG46Y62scwH0C7s+xVqfRFU/gv4rUWS9m+EYsabAXTx/g+Mq2t+ZGdaaGZlrpKDavr2PwitbpTMaw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1077,7 +1077,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.10
       '@mui/material': 5.14.5(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/system': 5.14.4(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react@18.2.0)
+      '@mui/system': 5.14.5(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react@18.2.0)
       '@mui/utils': 5.14.4(react@18.2.0)
       clsx: 2.0.0
       prop-types: 15.8.1
@@ -1541,8 +1541,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios@1.4.0:
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+  /axios@1.5.0:
+    resolution: {integrity: sha512-D4DdjDo5CY50Qms0qGQTTw6Q44jl7zRwY7bthds06pUGfChBCTcQs+N743eFWGEd6pRTMd6A+I87aWyFV5wiZQ==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
