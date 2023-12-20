@@ -4,13 +4,13 @@ import Backend from "i18next-http-backend";
 import * as _ from "lodash";
 import { initReactI18next } from "react-i18next";
 
-import { LanguagesEnum } from "@/types/i18n";
+import { Language } from "./types/translation";
 
 i18n.use(Backend)
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        supportedLngs: _.values(LanguagesEnum),
+        supportedLngs: _.values(Language),
         fallbackLng: "en",
         ns: ["common"],
         interpolation: {

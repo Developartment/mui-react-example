@@ -1,4 +1,4 @@
-import { UserResponse } from "@/api/responses";
+import { UserResponse } from "../requests/responses";
 
 const getDemoData = (): UserResponse[] => {
     return [

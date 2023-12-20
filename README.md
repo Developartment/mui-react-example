@@ -6,12 +6,10 @@ This project showcases an administration interface built with a stack that combi
 
 The project is organized into the following folders:
 
-- [/api](src/api): Files related to API interactions.
+- [/requests](src/requests): Files related to API interactions.
 - [/components](src/components): Reusable components.
-- [/modals](src/modals): Modal components.
-- [/outlets](src/outlets): Templates for different views.
-- [/routing](src/routing): Router configuration.
-- [/settings](src/settings): Application settings.
+- [/layouts](src/layouts): Layouts for different views.
+- [/config](src/settings): Application config.
 - [/store](src/store): Redux global store.
 - [/theme](src/theme): MUI template configuration.
 - [/types](src/types): Type definitions for the application.
@@ -22,7 +20,7 @@ The project is organized into the following folders:
 
 1. Clone this repository to your local machine using:
    ```
-   git clone https://github.com/krivcikfilip/AdminMUI-React-TS-i18n-Query-vite .
+   git clone git@github.com:Developartment/mui-react-example.git .
    ```
 2. Install dependencies using pnpm:
    ```
