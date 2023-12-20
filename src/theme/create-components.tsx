@@ -4,7 +4,7 @@ import { LinkBaseProps } from "@mui/material/Link";
 import { Theme } from "@mui/material/styles";
 import type { Components } from "@mui/material/styles/components";
 
-import LinkWrapper from "@/components/LinkWrapper";
+import LinkWrapper from "../components/LinkWrapper";
 
 export const createComponents = (): Components<Theme> => {
     return {
@@ -20,9 +20,23 @@ export const createComponents = (): Components<Theme> => {
                 component: LinkWrapper,
             } as LinkBaseProps,
         },
+        MuiButtonBase: {
+            styleOverrides: {
+                root: ({ theme }) => ({
+                    borderRadius: theme.spacing(1),
+                }),
+            },
+        },
         MuiButton: {
             defaultProps: {
                 disableElevation: true,
+            },
+        },
+        MuiPaper: {
+            styleOverrides: {
+                root: {
+                    boxShadow: "none",
+                },
             },
         },
     };
