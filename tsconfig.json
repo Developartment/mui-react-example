@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "ES2020",
     "baseUrl": ".",
@@ -26,3 +27,17 @@
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+=======
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "lib": ["DOM", "ESNext"],
+        "jsx": "react-jsx",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true
+    }
+}
+>>>>>>> bdd0d6c (New structure)

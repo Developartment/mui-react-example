@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "total": 1,
+            "type": {
+                "name": "CRITICAL",
+                "value": "CRITICAL"
+            }
+        }
+    ],
+    "code": 200
+}

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mui-react-example",
   "version": "0.2.0",
   "private": true,
@@ -62,4 +63,32 @@
     "vite-plugin-mkcert": "^1.17.1",
     "vite-plugin-svgr": "^4.2.0"
   }
+=======
+    "name": "react-mui-template",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "common": "pnpm --filter @template/common",
+        "demo": "pnpm --filter @template/demo"
+    },
+    "private": true,
+    "keywords": [],
+    "author": "",
+    "devDependencies": {
+        "@types/node": "^20.14.12",
+        "@typescript-eslint/eslint-plugin": "^7.17.0",
+        "@typescript-eslint/parser": "^7.17.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-cypress": "^3.4.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jsx-a11y": "^6.9.0",
+        "eslint-plugin-mui-path-imports": "^0.0.15",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "eslint-plugin-unused-imports": "^3.2.0",
+        "prettier": "^3.3.3",
+        "typescript": "^5.5.4"
+    }
+>>>>>>> bdd0d6c (New structure)
 }
