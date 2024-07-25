@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "mui-react-example",
   "version": "0.2.0",
   "private": true,
@@ -64,6 +65,8 @@
     "vite-plugin-svgr": "^4.2.0"
   }
 =======
+=======
+>>>>>>> 31d9d48 (Cleanup)
     "name": "react-mui-template",
     "version": "1.0.0",
     "description": "",
@@ -90,5 +93,8 @@
         "prettier": "^3.3.3",
         "typescript": "^5.5.4"
     }
+<<<<<<< HEAD
 >>>>>>> bdd0d6c (New structure)
+=======
+>>>>>>> 31d9d48 (Cleanup)
 }
