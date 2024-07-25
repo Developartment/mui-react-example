@@ -1,0 +1,60 @@
+{
+    "data": {
+        "facility": {
+            "id": 20,
+            "permissions": [
+                "PERM_OBJECT_SHOW",
+                "PERM_PANIC_BUTTON_TENANT",
+                "PERM_POPS_CREATE",
+                "PERM_POPS_EDIT",
+                "PERM_POPS_LOCK",
+                "PERM_POPS_SHOW",
+                "PERM_POPS_EVENT_CREATE",
+                "PERM_POPS_EVENT_EDIT",
+                "PERM_POPS_EVENT_SHOW",
+                "PERM_POPS_EVENT_TIME"
+            ],
+            "name": "Facility 2",
+            "code": "code.2",
+            "is_active": true,
+            "is_pops_alert": false,
+            "pops_alert_interval": null,
+            "created_at": "2024-05-24T15:28:04+00:00",
+            "updated_at": "2024-05-24T15:28:04+00:00"
+        },
+        "last_pops": {
+            "id": 61,
+            "starts_at": "2024-06-10T14:53:52+00:00",
+            "ends_at": "2024-06-10T21:59:59+00:00",
+            "is_locked": false,
+            "facility_id": 20,
+            "last_pops_event": {
+                "id": 18,
+                "pops_id": 61,
+                "description": "asdasd",
+                "is_send_attachment": false,
+                "event_date_time": "2024-07-03T06:25:30+00:00",
+                "inserted_by": {
+                    "email1": "mail1@example.com",
+                    "first_name": "test test",
+                    "last_name": "test test"
+                },
+                "event_category": {
+                    "id": 27,
+                    "event_number": 1,
+                    "name": "critical",
+                    "type": {
+                        "name": "CRITICAL",
+                        "value": "CRITICAL"
+                    },
+                    "parent_id": 9
+                }
+            },
+            "count_of_critical_events": 1,
+            "count_of_medium_events": 0,
+            "count_of_internal_events": 0,
+            "count_of_standard_events": 0
+        }
+    },
+    "code": 200
+}
